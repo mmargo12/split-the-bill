@@ -1,0 +1,75 @@
+.btn {
+    margin: 6px 0;
+    background-color: #fe9f84;
+    border: 2px solid #fe9f84;
+    border-radius: 10px;
+    color: white;
+    min-width: 100px;
+
+    &:hover {
+        background: #fdf7f5;
+        color: #fe9f84;
+        border: 2px solid #fe9f84;
+    }
+    &:disabled {
+        background-color: #fed3c7;
+        border: 2px solid #fe9f84;
+        color: white;
+    }
+
+    &-delete {
+        min-width: 30px;
+        min-height: 39px;
+        background: none;
+        padding: 3px 6px;
+        margin: 0;
+        border: 2px solid transparent;
+    }
+
+    &-info {
+        margin: 6px 3px;
+    }
+}
+
+.body {
+    background-color: #fbd7ce;
+}
+
+p {
+    color: #d27054;
+}
+
+.empty {
+    margin: 30px 0;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 10px auto;
+    width: 500px;
+    color: #d27054;
+}
+
+.title {
+    color: #e47152;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #fed6cc;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input {
+    background-color: #fdf7f5;
+    border: 2px solid #fe9f84;
+    border-radius: 4px;
+    color: #d27054;
+    &::placeholder {
+        color: #d27054;
+    }
+}
